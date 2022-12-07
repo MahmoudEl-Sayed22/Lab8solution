@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="./bootstrap.min.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab8part1</title>
+</head>
+<body>
+        <div class="system mx-auto p-5 m-5 ">
+            <h1 class="text-center">Login</h1>
+            <input type="text" class="form-control mb-3" id="name" placeholder="Enter your name" >
+
+            <input type="email" class="form-control mb-3" id="email" placeholder="Enter your email">
+            <input type="password" class="form-control mb-3" id="password" placeholder="Enter your password">
+            <p class="text-center text-danger" id="caution">Not registered</p>
+            <p class="text-center text-success" id="success">Welcome</p>
+
+            
+            <button onclick="Login()" class="btn btn-outline-info w-100" id="btnLogSign">Login</button>
+
+            <p  class="text-center mt-3"><span id="instruction">Dont't have an account?</span> <a onclick="signLink2()" id="signLink">Sign Up</a></p>
+        </div>
+        
+
+    <script src="./lab8part1.js"></script>
+</body>
+</html>

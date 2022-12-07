@@ -1,0 +1,42 @@
+body{
+    background: #24353f;
+}
+.system{
+    width: 60%;
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+
+}
+h1{
+    color: #17a2b8;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+input{
+    background-color: transparent !important;
+    color: #fff !important;
+}
+p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+}
+a{
+    color: #fff;
+}
+a:hover{
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#name{
+    display: none;
+}
+#caution{
+    display: none;
+}
+#success{
+    display: none;
+}
